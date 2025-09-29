@@ -11,9 +11,9 @@ from PySide6.QtWidgets import (
 )
 from PySide6.QtCore import Qt, QDate
 
-from todo_cli.db import init_db
-from todo_cli.models import TaskIn, Task
-from todo_cli.repository import TaskRepo
+from db import init_db
+from models import TaskIn, Task
+from repository import TaskRepo
 
 
 # İç değerler (DB’de bunlar saklanır)

@@ -7,9 +7,9 @@ from rich.table import Table
 from rich.console import Console
 from datetime import date
 from typing import Optional
-from todo_cli.db import init_db
-from todo_cli.models import TaskIn
-from todo_cli.repository import TaskRepo
+from db import init_db
+from models import TaskIn
+from repository import TaskRepo
 
 
 app = typer.Typer(help="Simple, professional TODO CLI")

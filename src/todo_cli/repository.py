@@ -2,8 +2,8 @@ from __future__ import annotations
 from typing import Optional
 from datetime import date
 from sqlalchemy import select, or_
-from todo_cli.db import TaskORM, get_session, to_dict
-from todo_cli.models import Task, TaskIn
+from db import TaskORM, get_session, to_dict
+from models import Task, TaskIn
 
 
 
