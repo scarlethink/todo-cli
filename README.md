@@ -1,4 +1,3 @@
-tamamdır ⚡ işte kullanıcı adını **scarlethink** olarak güncellenmiş profesyonel `README.md`:
 
 ````markdown
 # ✅ Todo-CLI & GUI
@@ -25,8 +24,6 @@ tamamdır ⚡ işte kullanıcı adını **scarlethink** olarak güncellenmiş pr
 ## 🖼️ Ekran Görüntüsü
 
 ![GUI Screenshot](docs/screenshot.png)
-
-> Görseli kendin `docs/screenshot.png` olarak kaydet, README’de otomatik çıkar.
 
 ---
 
