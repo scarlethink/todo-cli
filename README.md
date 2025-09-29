@@ -68,8 +68,7 @@ python -m src.todo_cli.gui
 Hazır `.exe` dosyaları **dist/** klasöründe oluşturulabilir:
 
 ```bash
-pyinstaller -F -w -n todo-gui --collect-all PySide6 --paths src src/todo_cli/gui.py
-pyinstaller -F -n todo-cli --collect-all sqlalchemy --paths src src/todo_cli/cli.py
+pyinstaller ./src/gui.py --name "todo-gui" --windowed --distpath="C:/Users/deyne/OneDrive/Documentos/Proje/todo-cli/dist" --hidden-import=db --hidden-import=models --hidden-import=repository --log-level DEBUG --clean
 ```
 
 Üretilen dosyalar:
