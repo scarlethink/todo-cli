@@ -1,0 +1,19 @@
+@'
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtualenv
+.venv/
+
+# Build artifacts
+dist/
+build/
+*.spec
+*.exe
+*.db
+
+# IDE
+.vscode/
+'@ | Out-File -FilePath .gitignore -Encoding utf8

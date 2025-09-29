@@ -1,0 +1,4 @@
+[
+  "tests/test_cli.py::test_add_and_list",
+  "tests/test_cli.py::test_done"
+]
